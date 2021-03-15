@@ -8,14 +8,10 @@ import { Footer } from "./footer.js";
 export function Home() {
 	return (
 		<div>
-			<div className="container-fluid p-0">
-				<Navbar />
-			</div>
+			<Navbar />
+			<Jumbotron />
 			<div className="container-fluid">
-				<Jumbotron />
-			</div>
-			<div className="row">
-				<div className="container-fluid">
+				<div className="row">
 					<div className="col-3">
 						<Cards />
 					</div>
@@ -30,9 +26,7 @@ export function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="container-fluid p-0">
-				<Footer />
-			</div>
+			<Footer />
 		</div>
 	);
 }
