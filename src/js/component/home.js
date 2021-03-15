@@ -11,19 +11,11 @@ export function Home() {
 			<Navbar />
 			<Jumbotron />
 			<div className="container-fluid">
-				<div className="row">
-					<div className="col-3">
-						<Cards />
-					</div>
-					<div className="col-3">
-						<Cards />
-					</div>
-					<div className="col-3">
-						<Cards />
-					</div>
-					<div className="col-3">
-						<Cards />
-					</div>
+				<div className="row m-3">
+					<Cards />
+					<Cards />
+					<Cards />
+					<Cards />
 				</div>
 			</div>
 			<Footer />
